@@ -14,8 +14,6 @@
     - [Vision](#21-vision)
     - [Use Case Diagram](#22-use-case-diagram)
 	- [Technology Stack](#23-technology-stack)
-- [Architectural Representation](#3-architectural-representation)
-- [Architectural Goals and Constraints](#4-architectural-goals-and-constraints)
 - [Specific Requirements](#5-specific-requirements)
     - [Functionality](#51-functionality)
     - [Usability](#52-usability)
