@@ -14,9 +14,6 @@ The Moderator can moderate and monitor the questions and the mood-Feedback from 
 ### 2.1.1 Activity Diagram
 ![Organization Application Activity Diagram](activity_diagrams/moderate_a_session.svg)
 
-### 2.1.2 Mock-up
-![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
-
 ### 2.1.3 Narrative
 
 ```gherkin
