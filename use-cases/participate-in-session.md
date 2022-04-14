@@ -14,9 +14,6 @@ The Viewer can interact with the moderator and the questions from other viewers 
 ### 2.1.1 Activity Diagram
 ![Organization Application Activity Diagram](activity_diagrams/participate_in_a_session.svg)
 
-### 2.1.2 Mock-up
-![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
-
 ### 2.1.3 Narrative
 
 ```gherkin
