@@ -79,17 +79,17 @@ This Test Plan for Vaultionizer supports the following objectives:
 - Identifies the required resources and provides an estimate of the test efforts.
 
 ### 1.2 Scope
-<!--[Describe the levels of testing (for example, Unit, Integration, or System, and the types of testing (such as Functionality, Usability, Reliability, Performance, and Supportability) that will be addressed by this Test Plan. It is also important to provide a general indication of significant areas that will be excluded from scope, especially where the intended audience might otherwise reasonably assume the inclusion of those areas. Note: Avoid placing detail here that you will repeat in sections 3, Target Test Items, and 4, Outline of Planned Tests.]-->
+
 Unit Tests are testing the functionality, performance and reliability of authentification inside LectureFeed.
 
 ### 1.3 Intended Audience
-<!--[Provide a brief description of the audience for whom you are writing the Test Plan. This helps readers of your document identify whether it is a document intended for their use, and helps prevent the document from being used inappropriately. Note: The document style and content often alters in relation to the intended audience. This section should only be about three to five paragraphs in length.]-->
+
 For all that are interested in the structure and testing architecture inside the LectureFeed-project. For example our professor and other course members. 
 Feel free to express your interest as an non-involved person.
 
 ### 1.4 Document Terminology and Acronyms
 
-<!--[This subsection provides the definitions of any terms, acronyms, and abbreviations required to properly interpret the Test Plan. Avoid listing items that are generally applicable to the project as a whole and that are already defined in the project's Glossary. Include a reference to the project's Glossary in the References section.]-->
+
 
 | Abbr | Abbreviation                        |
 |------|-------------------------------------|
@@ -108,7 +108,7 @@ Feel free to express your interest as an non-involved person.
 
 ### 1.5  References
 
-<!--[This subsection provides a list of the documents referenced elsewhere within the Test Plan. Identify each document by title, version (or report number if applicable), date, and publishing organization or original author. Avoid listing documents that are influential but not directly referenced. Specify the sources from which the "official versions" of the references can be obtained, such as intranet UNC names or document reference codes. This information may be provided by reference to an appendix or to another document.]-->
+
 
 | Title                                                                   | Date       | Publishing organization   |
 | ------------------------------------------------------------------------|:----------:| ------------------------- |
@@ -130,7 +130,7 @@ The use-case that is supposed to be tested is "login". Authentification is a key
 The whole project benefits of high quality in automated tests. Regular development of tests enables us to use test-driven development and ensures consistent quality.
 
 ### 2.1 Background
-<!--[Provide a brief description of the background surrounding why the test effort defined by this Test Plan will be undertaken. Include information such as the key problem being solved, the major benefits of the solution, the planned architecture of the solution, and a brief history of the project. Where this information is defined in other documents, you can include references to those other more detailed documents if appropriate. This section should only be about three to five paragraphs in length.]-->
+
 The login of our application is solved using a username and a session key which is used to connect users. 
 There is no password. This is the easiest way for users to get into a session and recognize each other by usernames.
 
@@ -147,7 +147,7 @@ This way we are raising the quality of our product.
 We want to ensure the funcitonality of our use-cases.
 
 ## 3. Target Test Items
-<!--The listing below identifies those test items software, hardware, and supporting product elements ¾that have been identified as targets for testing. This list represents what items will be tested. [Provide a high level list of the major target test items. This list should include both items produced directly by the project development team and items that those products rely on. For example, basic processor hardware, peripheral devices, operating systems, third-party products or components, and so forth. Consider grouping the list by category and assigning relative importance to each motivator.]-->
+
 We save our unit tests inside the repository where our application is saved.
 
 ## 4. Outline of Planned Tests
@@ -177,7 +177,7 @@ This will require further investigation.
 We are not going to do Database tests.
 
 ## 5. Test Approach
-<!--[The Test Approach presents the recommended strategy for designing and implementing the required tests. Sections 3, Target Test Items, and 4, Outline of Planned Tests, identified what items will be tested and what types of tests would be performed. This section describes how those tests will be realized. One aspect to consider for the test approach is the techniques to be used. This should include an outline of how each technique can be implemented, both from a manual and/or an automated perspective, and the criterion for knowing that the technique is useful and successful. For each technique, provide a description of the technique and define why it is an important part of the test approach by briefly outlining how it helps achieve the Evaluation Mission or addresses the Test Motivators. Another aspect to discuss in this section is the Fault or Failure models that are applicable and ways to approach evaluating them. As you define each aspect of the approach, you should update section 10, Responsibilities, Staffing, and Training Needs, to document the test environment configuration and other resources that will be needed to implement each aspect.]-->
+
 Our tests are supposed to be working, stable tests with accurate descriptions. We are trying to achieve useful scenarios. 
 We want to test the coorporation between different components and dynamic change of data using integration tests.
 We also need to test the functionality of our naviation in the UI. This is going to be implemented using Selenium. There will be different tests for participiant- and presenterview.
