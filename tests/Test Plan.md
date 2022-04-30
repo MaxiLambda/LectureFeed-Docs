@@ -21,18 +21,10 @@
 - [5. Test Approach](#5-test-approach)
   * [5.1 Initial Test-Idea Catalogs and Other Reference Sources](#51-initial-test-idea-catalogs-and-other-reference-sources)
   * [5.2 Testing Techniques and Types](#52-testing-techniques-and-types)
-    + [5.2.1 Data and Database Integrity Testing](#521-data-and-database-integrity-testing)
-    + [5.2.2 Functional Testing](#522-functional-testing)
-    + [5.2.3 Business Cycle Testing](#523-business-cycle-testing)
-    + [5.2.4 User Interface Testing](#524-user-interface-testing)
-    + [5.2.5 Performance Profiling](#525-performance-profiling)
-    + [5.2.6 Load Testing](#526-load-testing)
-    + [5.2.7 Stress Testing](#527-stress-testing)
-    + [5.2.8 Volume Testing](#528-volume-testing)
-    + [5.2.9 Security and Access Control Testing](#529-security-and-access-control-testing)
-    + [5.2.10 Failover and Recovery Testing](#5210-failover-and-recovery-testing)
-    + [5.2.11 Configuration Testing](#5211-configuration-testing)
-    + [5.2.12 Installation Testing](#5212-installation-testing)
+    + [5.2.1 Functional Testing](#522-functional-testing)
+    + [5.2.2 User Interface Testing](#524-user-interface-testing)
+    + [5.2.3 Security and Access Control Testing](#529-security-and-access-control-testing)
+    + [5.2.4 Installation Testing](#5212-installation-testing)
 - [6. Entry and Exit Criteria](#6-entry-and-exit-criteria)
   * [6.1 Test Plan](#61-test-plan)
     + [6.1.1 Test Plan Entry Criteria](#611-test-plan-entry-criteria)
@@ -202,7 +194,7 @@ The functionality of our software will be tested using mostly Unit-Tests
 |Success Criteria       |   A valid token is returned|
 |Special Considerations |    We are using a mock of our database|
 
-#### 5.2.3 User Interface Testing
+#### 5.2.2 User Interface Testing
 
 Angular Tests jasmine (Selenium?) 
 
@@ -216,7 +208,7 @@ Angular Tests jasmine (Selenium?)
 |Success Criteria       |   the frontend has to work as intended. Data exchange and looks need to be tested|
 |Special Considerations |   separate tests for presenter and participant may be needed  |
 
-#### 5.2.8 Security and Access Control Testing
+#### 5.2.3 Security and Access Control Testing
 
 |                       | Description                                                         |
 |-----------------------|---------------------------------------------------------------------|
@@ -228,7 +220,7 @@ Angular Tests jasmine (Selenium?)
 |Special Considerations | Testing the security of our system is extremely important. We will review the security tests in a group of at least 3 people|
 
 
-#### 5.2.11 Installation Testing
+#### 5.2.4 Installation Testing
 
 The installation tests of our software will not be automated. We will manually install it regularly.
 
