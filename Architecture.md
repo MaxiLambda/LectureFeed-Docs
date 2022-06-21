@@ -54,3 +54,10 @@ MVC:
 * Model: domain specific classes
 * View: no view available
 * Controller: Rest-/ Websocket-Controller
+
+
+Metrics
+
+|LectureFeed Main Repository | LectureFeed Web Repository| LectureFeed Desktop Repository|
+|--|--|--|
+|[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=MaximilianLincks_LectureFeed&amp;metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=MaximilianLincks_LectureFeed)[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=MaximilianLincks_LectureFeed&amp;metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=MaximilianLincks_LectureFeed)[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=MaximilianLincks_LectureFeed&amp;metric=coverage)](https://sonarcloud.io/summary/new_code?id=MaximilianLincks_LectureFeed)[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=MaximilianLincks_LectureFeed&amp;metric=ncloc)](https://sonarcloud.io/summary/new_code?id=MaximilianLincks_LectureFeed)[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=MaximilianLincks_LectureFeed&amp;metric=bugs)](https://sonarcloud.io/summary/new_code?id=MaximilianLincks_LectureFeed) |[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=MaximilianLincks_LectureFeed-Web&amp;metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=MaximilianLincks_LectureFeed-Web)[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=MaximilianLincks_LectureFeed-Web&amp;metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=MaximilianLincks_LectureFeed-Web)|[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=MaximilianLincks_LectureFeed-Web&amp;metric=ncloc)](https://sonarcloud.io/summary/new_code?id=MaximilianLincks_LectureFeed-Web)|
